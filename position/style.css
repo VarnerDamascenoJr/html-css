@@ -1,0 +1,25 @@
+.parent-div {
+    width: 500px;
+    height: 500px;
+    background-color: greenyellow;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    position: relative;
+}
+
+.child-one-div {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: absolute;
+}
+
+.child-two-div {
+    
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    
+}
+
