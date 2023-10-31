@@ -1,0 +1,18 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.item {
+    border: 2px solid saddlebrown;
+    border-radius: 6px;
+    padding: 8px;
+    background-color: aliceblue;
+}
+
+.t1.container{
+    display: grid;
+    height: 100vh;
+    grid-template-rows: auto 1fr auto;
+}
