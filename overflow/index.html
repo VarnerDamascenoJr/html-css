@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            background-color: rgb(150, 150, 228);
+        }
+        .container {
+            width: 200px;
+            height: 100px;
+            background-color: white;
+            border: 1px solid red;
+            overflow: hidden;
+            margin-bottom: 200px;
+        }
+
+        .container p {
+            margin-left: 10px;
+        }
+
+
+        .second-container {
+            width: 200px;
+            height: 90px;
+            background-color: white;
+            border: 1px solid red;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+
+
+        .third-container {
+            width: 200px;
+            height: 90px;
+            background-color: white;
+            border: 1px solid red;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+    </style>
+    <title>OverFlow</title>
+</head>
+<body>
+    <div class="container">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, 
+            tempora ut aliquam non repellat ea dolorem cupiditate doloremque doloribus, 
+            mollitia sapiente magni pariatur hic odit minus a id eaque laudantium.
+        </p>
+    </div>
+
+    <div class="second-container">
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel aperiam aut, aspernatur veniam saepe suscipit hic soluta pariatur. Quidem voluptate ipsa doloribus vitae sunt tenetur provident, cupiditate numquam odit error?
+        </p>
+    </div>
+
+    <div class="third-container">
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel aperiam aut, aspernatur veniam saepe suscipit hic soluta pariatur. Quidem voluptate ipsa doloribus vitae sunt tenetur provident, cupiditate numquam odit error?
+        </p>
+    </div>
+
+</body>
+</html>
+
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/text-overflow
+
+https://www.js-craft.io/blog/css-ellipsis-the-3-dots-on-multiple-lines/
+
+https://www.w3schools.com/cssref/css3_pr_text-overflow.php
+
+https://stackoverflow.com/questions/486563/overflowhidden-dots-at-the-end
+
